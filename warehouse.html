@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAKTARAK</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+
+  <body class="font-lexend">
+    <!-- top header start -->
+    <section class="bg-midnightBlue hidden md:block">
+      <div
+        class="h-12 max-w-[1280px] px-5 mx-auto flex justify-start items-center space-x-6"
+      >
+        <a
+          href="tel:+36308830991"
+          class="flex items-center justify-center text-lg text-white leading-6 tracking-wide hover:text-vibrantOrange"
+        >
+          <img src="./img/phone.svg" alt="" class="max-h-5 max-w-5 mr-3" />+36
+          30 883 0991</a
+        >
+        <a
+          href="mailto:berles@biztosraktar.hu"
+          class="flex items-center justify-center text-lg text-white leading-6 tracking-wide hover:text-vibrantOrange"
+          ><img
+            src="./img/envelope.svg"
+            alt=""
+            class="max-h-5 max-w-5 mr-3"
+          />berles@biztosraktar.hu</a
+        >
+        <a
+          href="#"
+          class="flex items-center justify-center text-lg text-white leading-6 tracking-wide hover:text-vibrantOrange"
+          ><img src="./img/clock.svg" alt="" class="max-h-5 max-w-5 mr-3" />H–V:
+          0-24</a
+        >
+      </div>
+    </section>
+    <!-- top header end -->
+    <!-- header start -->
+    <header>
+      <div class="max-w-[1280px] px-5 mx-auto">
+        <nav class="flex justify-between items-center py-4 lg:py-7">
+          <!-- Logo -->
+          <a href="./index.html" class="logo-container">
+            <img
+              src="./img/Logo.svg"
+              alt="Logo"
+              class="default-logo w-[70%] lg:w-[90%] xl:w-full"
+            />
+            <img
+              src="./img/Logo-hover.svg"
+              alt="Hover Logo"
+              class="hover-logo w-[70%] lg:w-[90%] xl:w-full"
+            />
+          </a>
+
+          <!-- Hamburger Menu (mobile) -->
+          <input type="checkbox" id="menu-toggle" class="hidden" />
+          <label for="menu-toggle" class="cursor-pointer block lg:hidden">
+            <div class="hamburger">
+              <span class="hamburger-line line-1"></span>
+              <span class="hamburger-line line-2"></span>
+              <span class="hamburger-line line-3"></span>
+            </div>
+          </label>
+
+          <!-- Menu -->
+          <ul
+            class="nav-menu absolute lg:relative left-0 top-16 md:top-[110px] lg:top-auto lg:bg-transparent bg-white shadow-lg lg:shadow-none w-full lg:w-auto text-center lg:flex lg:space-x-10 transition-all duration-500 ease-in-out max-h-0 overflow-hidden lg:max-h-full text-lg text-mutedPurple font-light leading-wide tracking-wide z-50"
+          >
+            <li
+              class="pt-6 pb-3 lg:py-0 mx-auto group flex justify-center items-center lg:hover:border-b-4 hover:border-skyBlue"
+            >
+              <a href="#" class="block md:inline">Raktárak</a>
+            </li>
+            <li
+              class="pt-3 pb-3 lg:py-0 mx-auto group flex justify-center items-center lg:hover:border-b-4 hover:border-skyBlue"
+            >
+              <a href="#" class="block md:inline">Bérlés</a>
+            </li>
+            <li
+              class="pt-3 pb-3 lg:py-0 mx-auto group flex justify-center items-center lg:hover:border-b-4 hover:border-skyBlue"
+            >
+              <a href="#" class="block md:inline">Kapcsolat</a>
+            </li>
+
+            <li
+              class="pt-3 pb-6 lg:py-0 flex md:flex-row flex-col lg:hidden justify-center gap-3 mx-auto px-5"
+            >
+              <a
+                href="#"
+                class="px-6 h-11 text-base text-skyBlue hover:text-white hover:bg-midnightBlue hover:border-midnightBlue font-medium leading-6 tracking-wide border-skyBlue border-2 rounded-[3px] flex items-center justify-center"
+              >
+                <svg
+                  class="w-4 h-4 mr-3"
+                  viewBox="0 0 16 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="stroke-skyBlue group-hover:stroke-white stroke-2 stroke-round"
+                    d="M11.1248 4.92542C11.1248 6.6513 9.72568 8.05042 7.99979 8.05042C6.2739 8.05042 4.87479 6.6513 4.87479 4.92542C4.87479 3.19953 6.2739 1.80042 7.99979 1.80042C9.72568 1.80042 11.1248 3.19953 11.1248 4.92542Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    class="stroke-skyBlue group-hover:stroke-white stroke-2 stroke-round"
+                    d="M1.75073 16.6906C1.80932 13.2895 4.58468 10.5504 7.99979 10.5504C11.415 10.5504 14.1904 13.2896 14.2488 16.6909C12.3465 17.5638 10.2301 18.0504 8.00005 18.0504C5.76978 18.0504 3.6532 17.5637 1.75073 16.6906Z"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                Belépés
+              </a>
+              <a
+                href="#"
+                class="px-6 h-11 text-base text-white hover:text-white hover:bg-midnightBlue hover:border-midbg-midnightBlue font-medium leading-6 tracking-wide bg-skyBlue border-skyBlue border-2 rounded-[3px] flex items-center justify-center"
+              >
+                Regisztráció
+              </a>
+            </li>
+          </ul>
+
+          <div class="hidden lg:flex space-x-6">
+            <a
+              href="#"
+              class="px-6 h-14 text-lg text-white font-semibold leading-6 tracking-wide bg-skyBlue border-skyBlue border-2 rounded-lg flex items-center justify-center hover:text-white hover:bg-midnightBlue hover:border-midnightBlue"
+              ><img src="./img/lcok.svg" alt="" /> Kapunyitás</a
+            >
+            <div>
+              <a href="#" class="flex items-center justify-center gap-3"
+                ><img src="./img/avater.png" alt="" /><img
+                  src="./img/chevron-up.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main></main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="border-t-[1px] border-lightLavender">
+      <!-- top -->
+      <div
+        class="max-w-[1280px] px-5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 lg:gap-6 py-10 lg:py-20 border-b-[1px] border-softLilac"
+      >
+        <!-- Column 1 -->
+        <ul class="space-y-4">
+          <li class="pb-0 lg:pb-6">
+            <p class="text-deepGray text-lg lg:text-xl font-bold">Főoldal</p>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >Raktár Bérlés</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >Bérleti díjak</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >GYIK</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >Kapcsolat</a
+            >
+          </li>
+        </ul>
+
+        <!-- Column 2 -->
+        <ul class="space-y-4">
+          <li class="pb-0 lg:pb-6">
+            <p class="text-deepGray text-lg lg:text-xl font-bold">
+              Oldal információk
+            </p>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >ÁSZF</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >Cookie tájékoztató</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >Fizetési információk</a
+            >
+          </li>
+        </ul>
+
+        <!-- Column 3 -->
+        <ul class="space-y-4">
+          <li class="pb-0 lg:pb-6">
+            <p class="text-deepGray text-lg lg:text-xl font-bold">Letöltések</p>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >iOS</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-dmSans text-base lg:text-lg text-mutedPurple hover:text-skyBlue inline-block font-light"
+              >Android</a
+            >
+          </li>
+        </ul>
+
+        <!-- Column 4 (Image) -->
+        <div class="flex justify-center md:justify-start">
+          <a href="#"><img src="./img/footer-container.png" alt="" /></a>
+        </div>
+      </div>
+
+      <!-- bottom -->
+      <div
+        class="max-w-[1280px] px-5 mx-auto flex flex-col lg:flex-row lg:justify-between justify-center lg:items-start item-start py-8 lg:py-20 border-b-[1px] border-softLilac gap-4"
+      >
+        <p
+          class="text-mutedPurple text-sm lg:text-lg font-light text-center lg:text-start"
+        >
+          Copyright © 2024 Üzemeltető |
+          <a href="#" class="hover:text-midnightBlue">Minden jog fenntartva.</a>
+        </p>
+        <p
+          class="text-mutedPurple text-sm lg:text-lg font-light flex gap-5 text-center lg:text-end mx-auto lg:mx-0"
+        >
+          Készítette: <a href="#"><img src="./img/netjpar.svg" alt="" /></a>
+        </p>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- divider start -->
+    <img src="./img/divider.png" alt="" class="w-full min-h-7 lg:min-h-16" />
+    <!-- divider end -->
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
